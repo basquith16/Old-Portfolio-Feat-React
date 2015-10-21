@@ -129,6 +129,7 @@ article {
   margin: 20px;
   flex-direction: column;
   width: 60%;
+  padding-right: 5px;
 }
 
 
@@ -151,21 +152,6 @@ aside {
   padding-bottom: 0;
 }
 
-.thumbnail {
-  display: flex;
-  width: 1px;
-  height: 1px;
-}
-
-figcaption {
-  text-align: right;
-  margin-right: 70px;
-  font-weight: 100;
-  margin-top: 5px;
-  color: #B4B7B9;
-  font-size: 14px;
-  padding-bottom: 10px;
-}
 
 .ironYard {
   margin: 50px 0 0 35%;
@@ -193,56 +179,20 @@ h6 {
   margin-top: 5px;
 }
 
-
-.mainarticle {
-  vertical-align: middle;
-  font-family: asap;
-  font-size: 14;
-  color: #757D85;
-  font-weight: 300;
-  text-align: left;
-  padding-bottom: 1%;
-  line-height: 1.5em;
-}
-
-
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #0B3455;
+  background-color: #2C1E10;
   margin: 0;
   justify-content: center;
   background-size: cover;
 }
 
-.button {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  border: 1px solid #146EB3;
-  background-color: #146EB3;
-  height: 30px;
-  width: 150px;
-  margin: 10px;
-}
-
-.buttIcon {
-  background-color: #063351;
-  width: 35px;
-}
-
-.buttonText {
-  font-size: 16px;
-  font-family: Oswald;
-  color: white;
-  font-weight: 100;
-  text-align: center;
-  margin-left: 50px;
-  margin-top: -22px;
-}
-
 article img {
   opacity: .6;
+  position:inherit;
+  flex-grow: 1;
+  margin-left: -200px;
 }
 
 article img:hover {
@@ -282,21 +232,6 @@ article img:hover {
   padding-bottom: 0;
 }
 
-.navLinks {
-  font-size: 14px;
-  font-weight: 100;
-  padding-left: 800px;
-  margin-top: -40px;
-}
-
-.photoTitles {
-  padding-left: 20px;
-  margin-top: -40px;
-  color: white;
-  font-size: 27px;
-  text-decoration: none;
-}
-
 a:visited {
   font-weight: 900;
   font-size: 10px;
@@ -314,31 +249,30 @@ a:active {
   background-color: #B2FFB2;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
   header {
     height: 100px;
+    margin: auto;
   }
 
   h1 {
     font-size: 30px;
-    margin-top: 10px;
+    margin: auto;
     padding-bottom: 5px;
   }
 
 
   .navbar {
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
     font-size: 10px;
+    margin: auto;
   }
 
   .navbar  .brand img {
-    margin: 0 0 0 -1000px;
+    margin: auto;
   }
 
   .rightNav {
-    margin-left: -180px;
+    margin: auto;
   }
 
   h3 {
@@ -374,38 +308,35 @@ aside {
 
 @media all and (max-width: 600px) {
 
-main {
-  align-content: center;
+.blog a{
+  margin-left: 40%;
 }
-article img {
 
-  max-height: 200px;
-  max-width: 200px;
+.tictactoe, .minesweeper, .blogLayout {
+  margin-left: -5%;
+}
+
+article img {
+  margin: auto;
+  max-width: 80%;
+}
+
+h3 {
+  margin-top: 5%;
 }
 
 h3, h4, p {
-  margin-left: 80%;
   font-size: 12px;
 }
 
 article {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    align-self: center;
+    margin: auto;
   }
 
 aside {
-  display: none;
+
 }
 
   .bottomNav {
     padding-right: 10px;
   }
-
-div {
-  flex-direction: row;
-  justify-content: center;
-}
