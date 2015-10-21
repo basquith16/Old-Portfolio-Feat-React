@@ -325,6 +325,7 @@ a:active {
     padding-bottom: 5px;
   }
 
+
   .navbar {
     flex-wrap: wrap;
     justify-content: center;
@@ -333,7 +334,7 @@ a:active {
   }
 
   .navbar  .brand img {
-    margin: 90px 0 0 -400px;
+    margin: 0 0 0 -1000px;
   }
 
   .rightNav {
@@ -373,11 +374,13 @@ aside {
 
 @media all and (max-width: 600px) {
 
+main {
+  align-content: center;
+}
 article img {
 
   max-height: 200px;
   max-width: 200px;
-  margin-right: 20%;
 }
 
 h3, h4, p {
@@ -390,7 +393,8 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 0 0 -30%;
+    margin: 0;
+    align-self: center;
   }
 
 aside {
@@ -400,3 +404,8 @@ aside {
   .bottomNav {
     padding-right: 10px;
   }
+
+div {
+  flex-direction: row;
+  justify-content: center;
+}
