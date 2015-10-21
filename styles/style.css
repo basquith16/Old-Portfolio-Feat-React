@@ -1,0 +1,402 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: rgba(163, 133, 102, .2)
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Open Sans;
+  background: url("https://stormideaswus.blob.core.windows.net/headerjunction/2014/91/77049ecf-7bd3-4527-9cee-e1d26bcc819a.jpg") no-repeat center;
+  padding-top: 15px;
+  padding-bottom: 80px;
+  background-size: cover;
+  margin: auto;
+}
+
+#gitHub, #twitter {
+  height: 40px;
+  width: 40px;
+}
+
+#linkedinLogo {
+  padding-left: -175px;
+  height: 40px;
+  width: 60px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 30px;
+  margin: 0;
+  font-weight: 600px;
+}
+
+nav {
+  font-family: Oswald;
+  font-size: 19px;
+  padding-right: 0;
+  margin-right: -320px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar  .brand img {
+  margin: -5px 15px 0px -320px;
+  padding-left: 115px;
+  padding-right: 5px;
+  font-weight: 300;
+}
+
+.navbar  nav > div {
+  padding: 0 5px;
+}
+
+.navbar a {
+  color: #0B3454;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Myriad Pro', sans-serif;
+  font-weight: 200;
+  font-size: 110px;
+  color: #FEFEFE;
+  text-shadow: 2px 2px black;
+  margin: 120px 0 0 0;
+  line-height: .8em;
+  padding-top: 1%;
+}
+
+h2.subheading {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h3 {
+  color: #0B3454;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 44px;
+  font-weight: 400;
+  margin: 25px 0 0 0;
+  line-height: 1em;
+}
+
+h4 {
+  color: #0B3454;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 60px;
+}
+
+.tictactoe, .minesweeper, .blogLayout {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  flex-grow: 10;
+  margin-left: 90px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.captions {
+  margin-left: 45px;
+  font-size: 14px;
+  padding-bottom: 25px;
+  font-family: asap;
+
+}
+
+article {
+  text-align: center;
+  margin: 20px;
+  flex-direction: column;
+  width: 60%;
+}
+
+
+aside {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  vertical-align: top;
+  width: 40%;
+  margin-right: 25px;
+}
+
+#myPic {
+  height: 85px;
+  width: 85px;
+  margin: auto;
+  margin-top: 85px;
+  margin-bottom: 0;
+  padding-right: 70px;
+  padding-bottom: 0;
+}
+
+.thumbnail {
+  display: flex;
+  width: 1px;
+  height: 1px;
+}
+
+figcaption {
+  text-align: right;
+  margin-right: 70px;
+  font-weight: 100;
+  margin-top: 5px;
+  color: #B4B7B9;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.ironYard {
+  margin: 50px 0 0 35%;
+}
+
+.sidebarParag {
+  text-align: left;
+  font-size: 14px;
+  color: gray;
+  font-weight: 200;
+  line-height: 1.2em;
+  font-family: asap;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h6 {
+  margin: auto;
+  color: #1C6BB9;
+  padding-right: 70px;
+  margin-bottom: 0;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+
+.mainarticle {
+  vertical-align: middle;
+  font-family: asap;
+  font-size: 14;
+  color: #757D85;
+  font-weight: 300;
+  text-align: left;
+  padding-bottom: 1%;
+  line-height: 1.5em;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #0B3455;
+  margin: 0;
+  justify-content: center;
+  background-size: cover;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid #146EB3;
+  background-color: #146EB3;
+  height: 30px;
+  width: 150px;
+  margin: 10px;
+}
+
+.buttIcon {
+  background-color: #063351;
+  width: 35px;
+}
+
+.buttonText {
+  font-size: 16px;
+  font-family: Oswald;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: -22px;
+}
+
+article img {
+  opacity: .6;
+}
+
+article img:hover {
+  opacity: 1;
+  height: 225px;
+  width: 425px;
+}
+
+.footerNav {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(45, 30, 18);
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 115px;
+  margin-bottom: 15px;
+}
+
+.bottomNav {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font-size: 14px;
+  color: #A2A5A6;
+  font-weight: 100;
+  line-height: 1.8em;
+  font-family: asap;
+  margin-top: 40px;
+  margin-left: 15px;
+  padding-bottom: 0;
+}
+
+.navLinks {
+  font-size: 14px;
+  font-weight: 100;
+  padding-left: 800px;
+  margin-top: -40px;
+}
+
+.photoTitles {
+  padding-left: 20px;
+  margin-top: -40px;
+  color: white;
+  font-size: 27px;
+  text-decoration: none;
+}
+
+a:visited {
+  font-weight: 900;
+  font-size: 10px;
+}
+
+a:hover {
+  font-size: 18px;
+  text-decoration: underline;
+  color: #A1C6E2
+}
+
+a:active {
+  font-weight: 600;
+  border: 1px solid black;
+  background-color: #B2FFB2;
+}
+
+@media all and (max-width: 800px) {
+  header {
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .navbar  .brand img {
+    margin: 90px 0 0 -400px;
+  }
+
+  .rightNav {
+    margin-left: -180px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .mobileFriendly {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footerNav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bottomNav {
+    font-size: 8px;
+    text-align: left;
+    margin: 40px 0 0 15px;
+  }
+
+  .logo {
+    height: 35px;
+    width: 35px;
+    padding-right: 10px;
+    margin-left: 5px;
+  }
+
+aside {
+  display: none;
+}
+
+@media all and (max-width: 600px) {
+
+article img {
+
+  max-height: 200px;
+  max-width: 200px;
+  margin-right: 20%;
+}
+
+h3, h4, p {
+  margin-left: 80%;
+  font-size: 12px;
+}
+
+article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 -30%;
+  }
+
+aside {
+  display: none;
+}
+
+  .bottomNav {
+    padding-right: 10px;
+  }
