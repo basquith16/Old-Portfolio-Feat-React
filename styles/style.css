@@ -1,7 +1,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  background-color: rgba(163, 133, 102, .2)
+  background: url('/styles/backgroundPic.jpg')
 }
 
 header {
@@ -9,7 +9,6 @@ header {
   flex-direction: column;
   color: white;
   font-family: Open Sans;
-  background: url("https://stormideaswus.blob.core.windows.net/headerjunction/2014/91/77049ecf-7bd3-4527-9cee-e1d26bcc819a.jpg") no-repeat center;
   padding-top: 15px;
   padding-bottom: 80px;
   background-size: cover;
@@ -23,8 +22,9 @@ header {
 
 #linkedinLogo {
   padding-left: -175px;
-  height: 40px;
-  width: 60px;
+  margin-top: -5px;
+  height: 50px;
+  width: 80px;
 }
 
 .navbar {
@@ -32,7 +32,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   line-height: 30px;
-  margin: 0;
+  margin-left: -110px;
   font-weight: 600px;
 }
 
@@ -159,7 +159,7 @@ aside {
 
 .sidebarParag {
   text-align: left;
-  font-size: 14px;
+  font-size: 24px;
   color: gray;
   font-weight: 200;
   line-height: 1.2em;
@@ -170,7 +170,7 @@ aside {
 
 h6 {
   margin: auto;
-  color: #1C6BB9;
+  color: #black;
   padding-right: 70px;
   margin-bottom: 0;
   font-family: Open Sans;
@@ -186,6 +186,10 @@ footer {
   margin: 0;
   justify-content: center;
   background-size: cover;
+}
+
+article h3, article h4 {
+  margin-left: 48px;
 }
 
 article img {
@@ -237,9 +241,8 @@ a:visited {
   font-size: 10px;
 }
 
-a:hover {
-  font-size: 18px;
-  text-decoration: underline;
+.blog{
+  text-decoration: none;
   color: #A1C6E2
 }
 
@@ -275,7 +278,7 @@ a:active {
     margin: auto;
   }
 
-  h3 {
+  article h3 {
     font-size: 20px;
   }
 
