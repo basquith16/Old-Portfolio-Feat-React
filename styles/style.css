@@ -1,16 +1,19 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  background: url('/styles/backgroundPic.jpg')
+  font-family: Bodoni;
+  background-color: rgba(33, 39, 52, .2);
+
 }
 
 header {
   display: flex;
   flex-direction: column;
   color: white;
-  font-family: Open Sans;
+  font-family: Bodoni;
   padding-top: 15px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
+  background-image: url('../images/backgroundPic.jpg');
   background-size: cover;
   margin: auto;
 }
@@ -37,7 +40,7 @@ header {
 }
 
 nav {
-  font-family: Oswald;
+  font-family: Bodoni;
   font-size: 19px;
   padding-right: 0;
   margin-right: -320px;
@@ -62,7 +65,7 @@ nav {
 
 h1 {
   text-align: center;
-  font-family: 'Myriad Pro', sans-serif;
+  font-family: 'Bodoni', sans-serif;
   font-weight: 200;
   font-size: 110px;
   color: #FEFEFE;
@@ -78,13 +81,21 @@ h2.subheading {
   font-weight: 600;
   color: white;
   margin: 0;
-  font-family: Open Sans;
+  font-family: Bodoni;
+}
+
+h2 {
+  color: #0B3454;
+}
+
+.skills h2 {
+  margin-right: -25px;
 }
 
 h3 {
   color: #0B3454;
   text-align: center;
-  font-family: 'Oswald';
+  font-family: Bodoni;
   font-size: 44px;
   font-weight: 400;
   margin: 25px 0 0 0;
@@ -94,7 +105,7 @@ h3 {
 h4 {
   color: #0B3454;
   text-align: center;
-  font-family: 'Oswald';
+  font-family: Bodoni;
   font-size: 24px;
   margin-top: 5px;
 }
@@ -103,6 +114,7 @@ main {
   display: flex;
   flex-direction: row;
   padding-bottom: 60px;
+  margin-top: 50px;
 }
 
 .tictactoe, .minesweeper, .blogLayout {
@@ -120,7 +132,7 @@ main {
   margin-left: 45px;
   font-size: 14px;
   padding-bottom: 25px;
-  font-family: asap;
+  font-family: Bodoni;
 
 }
 
@@ -143,12 +155,12 @@ aside {
 }
 
 #myPic {
-  height: 85px;
-  width: 85px;
+  height: 175px;
+  width: 175px;
   margin: auto;
   margin-top: 85px;
   margin-bottom: 0;
-  padding-right: 70px;
+  padding-right: 40px;
   padding-bottom: 0;
 }
 
@@ -160,20 +172,27 @@ aside {
 .sidebarParag {
   text-align: left;
   font-size: 24px;
-  color: gray;
+  color: #0B3454;
   font-weight: 200;
   line-height: 1.2em;
-  font-family: asap;
+  font-family: Bodoni;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
+.skills {
+  font-size: 36px;
+  text-align: center;
+  margin-right: 70px;
+  color: #0B3454;
+}
+
 h6 {
   margin: auto;
-  color: #black;
+  color: #0B3454;
   padding-right: 70px;
   margin-bottom: 0;
-  font-family: Open Sans;
+  font-family: Bodoni;
   font-size: 16px;
   font-weight: 500;
   margin-top: 5px;
@@ -182,7 +201,7 @@ h6 {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #2C1E10;
+  background-color: #0B3454;
   margin: 0;
   justify-content: center;
   background-size: cover;
@@ -209,7 +228,7 @@ article img:hover {
   height: auto;
   display: flex;
   flex-direction: row;
-  background-color: rgb(45, 30, 18);
+  background-color: #0B3454;
   justify-content: flex-start;
   padding: 0;
   margin: 0;
@@ -230,7 +249,7 @@ article img:hover {
   color: #A2A5A6;
   font-weight: 100;
   line-height: 1.8em;
-  font-family: asap;
+  font-family: Bodoni;
   margin-top: 40px;
   margin-left: 15px;
   padding-bottom: 0;
@@ -243,7 +262,11 @@ a:visited {
 
 .blog{
   text-decoration: none;
-  color: #A1C6E2
+  color: #0B3454;
+}
+
+ul {
+  list-style: none;
 }
 
 a:active {
