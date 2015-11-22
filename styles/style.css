@@ -2,7 +2,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: Bodoni;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: white;
 
 }
 
@@ -70,7 +70,7 @@ h1 {
   font-size: 110px;
   color: #FEFEFE;
   text-shadow: 2px 2px black;
-  margin: 120px 0 0 0;
+  margin: 120px 0 5px 0;
   line-height: .8em;
   padding-top: 1%;
 }
