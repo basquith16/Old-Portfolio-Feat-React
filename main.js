@@ -12,7 +12,6 @@ class Router extends Backbone.Router {
     }
   }
   showBlog() {
-    console.log('showBlog');
     $.get('blog.html').then(function(page) {
       $('#content').html(page);
     })
