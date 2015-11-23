@@ -8,114 +8,49 @@
   <link href='https://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
   <link href="styles/style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js'></script>
+  <script src="main.js"></script>
   <title>Brian Asquith Portfolio</title>
 </head>
 
 <body>
   <header>
-    <div class="navbar">
-      <div class="brand">
-        <div>
-          <img id="gitHub" src="images/stormtroopocat.png" alt="symbol" />
-        </div>
-        <div class="blog" style="margin: -40px 0 0 -150px;"><a href="https://github.com/basquith16" style="color: white" target="_blank">Brian's GitHub Account</a></div>
-      </div>
-
-      <nav class="rightNav">
-        <div>
-          <a href="https://twitter.com/basquith16" target="_blank">
-            <img src="http://marklaxton.com/wp-content/uploads/2015/07/twitter-icon.png" id="twitter" />
-          </a>
-        </div>
-        <div>
-          <a href="https://www.linkedin.com/profile/view?id=AAIAAAtPb3cBRZooOVV8DgDVQhbnXnwhZ4xFVeY&trk=nav_responsive_tab_profile" target="_blank">
-            <img id="linkedinLogo" src="images/linkedin.png" alt "linkedIn"/>
-          </a>
-        </div>
-      </nav>
-    </div>
-    <h1>Welcome to Brian's Portfolio</h1>
-    <h2 class="subheading">A Sample of My Growth</h2>
+    <h1>Brian Asquith</h1>
+    <h2 class="subheading">Front End Software Engineer</h2>
+    <h2 class="subheading">Web Development</h2>
+    <h2 class="subheading">UI/UX</h2>
+    <img id="myPic" src="images/portpicback.jpg" alt="guy" />
   </header>
-  <main>
-    <article>
-      <h3>What I've Been Up To!</h3>
-      <h4>Click on an Image to go to a Project</h4>
-      <div class="tictactoe">
-        <a href="https://basquith16.github.io/TicTacToe" target="_blank">
-          <img class="tictactoe" src="images/TykeTyme.png" />
-        </a>
-      </div>
-      <p class="captions">Featured App - TykeTyme</p>
-      <div class="tictactoe">
-        <a href="https://basquith16.github.io/TicTacToe" target="_blank">
-          <img class="tictactoe" src="images/tictac.png" />
-        </a>
-      </div>
-      <p class="captions">Week 2 - TicTacToe. Drag and Drop featuring raw javascript and jquery UI</p>
-      <div class="tictactoe">
-        <a href="https://basquith16.github.io/Surf-and-Paddle/" target="_blank">
-          <img class="tictactoe" src="images/surfPaddle.png" />
-        </a>
-      </div>
-      <p class="captions">Week 3 - Responsive Website Mockup using Flexbox and CSS</p>
-      <div class="minesweeper">
-        <a href="https://basquith16.github.io/Minesweeper" target="_blank">
-          <img class="minesweeper" src="images/minesweep.png" />
-        </a>
-      </div>
-      <p class="captions">Minesweeper. Three difficulty levels. Features Backbone.</p>
-      <div class="tictactoe">
-        <a href="https://basquith16.github.io/ToDoList" target="_blank">
-          <img class="tictactoe" src="images/todolist.png" />
-        </a>
-      </div>
-      <p class="captions">Basic ToDo List. Features JS and JQuery</p>
-      <div class="tictactoe">
-        <a href="https://basquith16.github.io/MovieReviewWebsite" target="_blank">
-          <img class="tictactoe" src="images/movieReview.png" />
-        </a>
-      </div>
-      <p class="captions">Another static, but responsive webpage mockup</p>
-      <h2>This is just a little bit of what I've done. Checkout my gitHub link at the top of the page for more!</h2>
-    </article>
-    <aside>
-      <img id="myPic" src="images/myPic.png" alt="guy" />
-      <h6>About Me</H6>
-      <p class="sidebarParag">A former highschool teacher and Iron Yard graduate, who is pursuing a dream career in software development. Brian is OBSESSED with coding and web design. Currently working on freelance projects and contributing to open source projects, Brian is
-        searching for the right team to join. A work culture that promotes creativity, fun, and customization is the ideal fit.
-        <div class="ironYard">
-          <a href="https://theironyard.com">
-            <img src="http://theironyard.com/images/iron-yard-logo.svg" />
-          </a>
-        </div>
-        <p class="sidebarParag">
-          <div class="skills">
-            <h2>Skill Set</h2>
-            <ul>
-              <li>Javascript/ES6</li>
-              <li>Python</li>
-              <li>HTML5/CSS</li>
-              <li>AngularJS</li>
-              <li>React</li>
-              <li>BackboneJS</li>
-              <li>SASS</li>
-              <li>Flexbox/Bootstrap</li>
-              <li>UI/UX</li>
-              <li>Single Page Applications</li>
-            </ul>
-          </div>
-        </p>
-    </aside>
-  </main>
-  <footer>
-    <div class="mobileFriendly">
-      <nav class="footerNav">
-        <img class="logo" src="http://i.imgur.com/uWexwMl.png" />
-        <div class="bottomNav">Code Written and Designs Created By Brian Asquith</div>
-      </nav>
+  <div class="navbar">
+    <div class="brand">
+      <a href="#/blog" style="color: white">Blog</a>
+      <a href="#" style="color: white">About Me</a>
+      <a href="#" style="color: white">Portfolio</a>
     </div>
+
+    <nav class="rightNav">
+      <div>
+        <a href="https://github.com/basquith16" style="color: white" target="_blank">
+        <img id="gitHub" src="images/stormtroopocat.png" alt="symbol" />
+      </a>
+      </div>
+      <div>
+        <a href="https://twitter.com/basquith16" target="_blank">
+          <img src="http://marklaxton.com/wp-content/uploads/2015/07/twitter-icon.png" id="twitter" />
+        </a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/profile/view?id=AAIAAAtPb3cBRZooOVV8DgDVQhbnXnwhZ4xFVeY&trk=nav_responsive_tab_profile" target="_blank">
+          <img id="linkedinLogo" src="images/linkedin.png" alt "linkedIn"/>
+        </a>
+      </div>
+    </nav>
+  </div>
+  <div class="content"></div>
+  <footer>
+        <div class="bottomNav">Code Written and Designs Created By Brian Asquith</div>
   </footer>
 </body>
-
 </html>

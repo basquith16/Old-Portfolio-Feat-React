@@ -18,9 +18,26 @@ header {
   margin: auto;
 }
 
-#gitHub, #twitter {
+#myPic {
+  height: 500px;
+  width: 100%;
+  margin: -390px 0 -98px 0;
+  padding-right: 40px;
+  padding-bottom: 0;
+  opacity: .2;
+  z-index: 0;
+}
+
+#twitter {
   height: 40px;
   width: 40px;
+  z-index: 1;
+}
+
+#gitHub {
+  height: 40px;
+  width: 50px;
+  padding-right: 5px;
 }
 
 #linkedinLogo {
@@ -30,13 +47,29 @@ header {
   width: 80px;
 }
 
+.brand {
+  margin-left: -250px;
+  padding-top: 10px;
+  color: white;
+}
+
+.brand a {
+  margin-right: 25px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .navbar {
+  background-color: rgba(101, 50, 57, .8);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   line-height: 30px;
-  margin-left: -110px;
+  margin:0;
   font-weight: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 10px;
 }
 
 nav {
@@ -64,24 +97,25 @@ nav {
 }
 
 h1 {
-  text-align: center;
-  font-family: 'Bodoni', sans-serif;
+  text-align: left;
+  font-family: sans-serif;
   font-weight: 200;
-  font-size: 110px;
+  font-size: 75px;
   color: #FEFEFE;
   text-shadow: 2px 2px black;
-  margin: 120px 0 5px 0;
+  margin: 60px 0 5px 50px;
   line-height: .8em;
   padding-top: 1%;
+  padding-bottom: 5%;
 }
 
 h2.subheading {
-  text-align: center;
-  font-size: 15px;
-  font-weight: 600;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 400;
   color: white;
-  margin: 0;
-  font-family: Bodoni;
+  margin: 0 0 0 50px;
+  font-family: sans-serif;
 }
 
 h2 {
@@ -155,17 +189,6 @@ aside {
   margin-right: 25px;
 }
 
-#myPic {
-  height: 175px;
-  width: 175px;
-  margin: auto;
-  margin-top: 85px;
-  margin-bottom: 0;
-  padding-right: 40px;
-  padding-bottom: 0;
-}
-
-
 .ironYard {
   margin: 50px 0 0 35%;
 }
@@ -202,7 +225,6 @@ h6 {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #0B3454;
   margin: 0;
   justify-content: center;
   background-size: cover;
@@ -223,40 +245,14 @@ article img:hover {
   opacity: 1;
 }
 
-.footerNav {
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  background-color: #0B3454;
-  justify-content: flex-start;
-  padding: 0;
-  margin: 0;
-}
-
-.logo {
-  height: 40px;
-  margin-top: 30px;
-  margin-left: 115px;
-  margin-bottom: 15px;
-}
-
 .bottomNav {
   display: flex;
   flex-direction: row;
   text-align: left;
   font-size: 14px;
-  color: #A2A5A6;
-  font-weight: 100;
-  line-height: 1.8em;
+  color: black;
+  font-weight: 200;
   font-family: Bodoni;
-  margin-top: 40px;
-  margin-left: 15px;
-  padding-bottom: 0;
-}
-
-a:visited {
-  font-weight: 900;
-  font-size: 10px;
 }
 
 .blog{
@@ -280,12 +276,6 @@ ul {
     padding-bottom: 5px;
   }
 
-
-  .navbar {
-    font-size: 10px;
-    margin: auto;
-  }
-
   .navbar  .brand img {
     margin: auto;
   }
@@ -298,20 +288,9 @@ ul {
     font-size: 20px;
   }
 
-  .mobileFriendly {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .footerNav {
-    display: flex;
-    flex-direction: row;
-  }
-
   .bottomNav {
     font-size: 8px;
     text-align: left;
-    margin: 40px 0 0 15px;
   }
 
   .logo {
@@ -350,8 +329,4 @@ h3, h4, p {
 
 article {
     margin: auto;
-  }
-
-  .bottomNav {
-    padding-right: 10px;
   }
