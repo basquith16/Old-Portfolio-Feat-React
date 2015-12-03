@@ -1,7 +1,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: Bodoni;
+  font-family: sans-serif;
   background-color: white;
 }
 
@@ -9,7 +9,6 @@ header {
   display: flex;
   flex-direction: column;
   color: white;
-  font-family: Bodoni;
   padding-top: 15px;
   padding-bottom: 100px;
   background-image: url('../images/bg-header.jpg');
@@ -20,7 +19,6 @@ header {
 p {
   margin: -50px 0 0 0;
   text-align: left;
-  font-family: Bodoni;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -85,13 +83,12 @@ p {
   justify-content: center;
   line-height: 30px;
   margin: 0;
-  font-weight: 600;
+  font-weight: 400;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding-top: 10px;
 }
 
 nav {
-  font-family: Bodoni;
   font-size: 19px;
   padding-right: 0;
   margin-right: -320px;
@@ -116,7 +113,6 @@ nav {
 
 h1 {
   text-align: left;
-  font-family: sans-serif;
   font-weight: 200;
   font-size: 75px;
   color: #FEFEFE;
@@ -133,7 +129,6 @@ h2.subheading {
   font-weight: 400;
   color: white;
   margin: 0 0 0 50px;
-  font-family: sans-serif;
 }
 
 h2 {
@@ -142,13 +137,13 @@ h2 {
 
 .skills h2 {
   color: black;
-
+  text-shadow: .2px .2px white;
+  margin-left: 20%;
 }
 
 h3 {
   color: #0B3454;
   text-align: center;
-  font-family: Bodoni;
   font-size: 44px;
   font-weight: 400;
   margin: 25px 0 0 0;
@@ -158,7 +153,6 @@ h3 {
 h4 {
   color: #0B3454;
   text-align: center;
-  font-family: Bodoni;
   font-size: 24px;
   margin: 5px 0 50px 0;
 }
@@ -185,7 +179,6 @@ main {
   margin-left: 45px;
   font-size: 14px;
   padding-bottom: 25px;
-  font-family: Bodoni;
 }
 
 article {
@@ -223,20 +216,20 @@ aside {
   color: #0B3454;
   font-weight: 200;
   line-height: 1.2em;
-  font-family: Bodoni;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 .skills {
-  margin: 0 0 0 15%;
-  padding-top: 10%;
-  font-size: 18px;
+  background-color: rgba(101, 50, 57, .6);
+  margin: 10% 0 0 15%;
+  font-size: 22px;
   text-align: left;
-  width: 15%;
-  height: 15%;
+  width: 20%;
   font-weight: bold;
-
+  text-shadow: .2px .2px white;
+  border-radius: 5%;
+  padding: 2px;
 }
 
 h6 {
@@ -244,7 +237,6 @@ h6 {
   color: #0B3454;
   padding-right: 70px;
   margin-bottom: 0;
-  font-family: Bodoni;
   font-size: 16px;
   font-weight: 500;
   margin-top: 5px;
@@ -268,12 +260,11 @@ article img:hover {
 
 .bottomNav {
   display: flex;
-  flex-direction: row;
-  text-align: left;
+  flex-direction: column;
+  text-align: center;
   font-size: 14px;
   color: black;
   font-weight: 200;
-  font-family: Bodoni;
 }
 
 .blog {
@@ -380,10 +371,7 @@ ul {
   .attributes {
     font-size: smaller;
   }
-  #bwPic {
-    height: 200px;
-    width: 200px;
-  }
+
   .aboutMe {
     font-size: larger;
     padding-top: 10%;
@@ -394,6 +382,7 @@ ul {
 }
 
   .aboutMe {
-    margin-bottom: 10%;
+    margin: 20% 0 10% 0;
     padding-bottom: 10%;
+    padding-top: 8%;
   }
