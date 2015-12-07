@@ -25,7 +25,31 @@ p {
 
 #portTitle {
   text-align: center;
-  margin: -50px 0 0 200px;
+  margin: 5% 0 0 -3%
+}
+
+#clickImage {
+  margin-left: -2%;
+}
+
+.attributes {
+  list-style: none;
+  margin-left: 65%;
+  font-weight: bold
+}
+
+#firstParag {
+  font-size: 24px;
+  padding: 10px 30px 10px 30px;
+  margin: -15% 0 0 0;
+  color: black;
+}
+
+#aboutParag {
+  font-size: 24px;
+  padding: 10px 30px 10px 30px;
+  margin: 0;
+  color: black;
 }
 
 #myPic {
@@ -36,6 +60,12 @@ p {
   padding-bottom: 0;
   opacity: .2;
   z-index: 0;
+}
+
+#bwPic {
+  margin: 10% 0 0 65%;
+  border: 1px solid black;
+  border-radius: 10%
 }
 
 #twitter {
@@ -56,12 +86,28 @@ p {
   width: 80px;
 }
 
+#telephone {
+  height: 42px;
+  width: 42px;
+}
+
+#email {
+  height: 35px;
+  width: 45px;
+  padding: 2px 15px 0 0;
+}
+
 .brand {
   margin-left: -250px;
   padding: 10px 20px 0 0;
   color: white;
   white-space: nowrap;
   display:inline-block;
+}
+
+#portoPage {
+  background-image: url('../images/portfoBackground.jpg');
+  margin: 0;
 }
 
 .brand a {
@@ -86,6 +132,10 @@ p {
   font-weight: 400;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding-top: 10px;
+}
+
+#movieReview {
+  margin-left: -34%;
 }
 
 nav {
@@ -220,9 +270,15 @@ aside {
   padding-bottom: 0;
 }
 
-.skills {
+.aboutMeBody {
+  background-image: url('../images/stoneWall.jpg');
+  background-size: cover;
+  margin: 0 0 0 0;
+}
+
+#skills {
   background-color: rgba(101, 50, 57, .6);
-  margin: 10% 0 0 15%;
+  margin: -40% 0 0 15%;
   font-size: 22px;
   text-align: left;
   width: 20%;
@@ -242,14 +298,6 @@ h6 {
   margin-top: 5px;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  margin: 100px 0 0 0;
-  justify-content: center;
-  background-size: cover;
-}
-
 article img {
   opacity: .6;
 }
@@ -265,6 +313,8 @@ article img:hover {
   font-size: 14px;
   color: black;
   font-weight: 200;
+  height: 20px;
+  padding-bottom: 5px
 }
 
 .blog {
@@ -382,7 +432,8 @@ ul {
 }
 
   .aboutMe {
-    margin: 20% 0 10% 0;
+    margin: 5% 0 10% 0;
     padding-bottom: 10%;
     padding-top: 8%;
+    color: black;
   }
