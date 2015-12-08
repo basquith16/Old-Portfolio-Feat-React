@@ -37,34 +37,34 @@ module.exports = React.createClass({
     </div>
       <div className="navbar">
         <ul className="nav nav-pills pull-left">
-          <li><Link to='/'>Home</Link></li>
-          <li><Link to='1'>About Me</Link></li>
-          <li><Link to='2'>Portfolio</Link></li>
+          <li><Link to='/' id="navLinks">Home</Link></li>
+          <li><Link to='1' id="navLinks">About Me</Link></li>
+          <li><Link to='2' id="navLinks">Portfolio</Link></li>
         </ul>
 
         <ul className="nav nav-pills pull-right">
           <li>
-            <a href="https://github.com/basquith16" target="_blank">
+            <a href="https://github.com/basquith16" target="_blank" id="navLinks">
               <img id="gitHub" src="images/stormtroopocat.png" alt="symbol" />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/basquith16" target="_blank">
+            <a href="https://twitter.com/basquith16" target="_blank" id="navLinks">
               <img src="http://marklaxton.com/wp-content/uploads/2015/07/twitter-icon.png" id="twitter" />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/profile/view?id=AAIAAAtPb3cBRZooOVV8DgDVQhbnXnwhZ4xFVeY&trk=nav_responsive_tab_profile" target="_blank">
+            <a href="https://www.linkedin.com/profile/view?id=AAIAAAtPb3cBRZooOVV8DgDVQhbnXnwhZ4xFVeY&trk=nav_responsive_tab_profile" target="_blank" id="navLinks">
               <img id="linkedinLogo" src="images/linkedin.png" alt="linkedIn"/>
             </a>
           </li>
           <li>
-            <a href="mailto:basquithcpt@gmail.com?Subject=Saw Your Portfolio%20" target="_top">
+            <a href="mailto:basquithcpt@gmail.com?Subject=Saw Your Portfolio%20" target="_top" id="navLinks">
               <img id="email" src="images/email-icon.png"  alt="email"/>
             </a>
           </li>
           <li>
-            <a href="tel:4074904075">
+            <a href="tel:4074904075" id="navLinks">
               <img id="telephone" src="images/icon_telephone.png" alt="telephone"/>
             </a>
           </li>

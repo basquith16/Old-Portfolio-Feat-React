@@ -398,14 +398,24 @@ ul {
     margin-left: -8%;
   }
 
-  #twitter, #gitHub {
-    height: 25px;
-    width: 25px;
+  #twitter, #gitHub, #telephone {
+    height: 35px;
+    width: 35px;
+    margin: -5px;
   }
 
   #linkedinLogo {
-    width: 45px;
-    height: 35px;
+    width: 55px;
+    height: 45px;
+    margin: -5px;
+  }
+
+  .pull-left {
+    margin-left: 25px;
+  }
+
+  .pull-right {
+    padding-right: 10px;
   }
 
   .navRight {
@@ -460,4 +470,8 @@ ul {
     padding-bottom: 10%;
     padding-top: 8%;
     color: black;
+  }
+
+  #navLinks:link, #navLinks:visited, #navLinks:hover, #navLinks:active {
+    background: none;
   }
