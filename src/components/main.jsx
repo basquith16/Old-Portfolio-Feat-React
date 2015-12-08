@@ -27,6 +27,21 @@ module.exports = React.createClass({
     }),
       <div>
         <div className="underheader">
+          <h1>My Resume</h1>
+          <p>Education</p>
+          <p>Bachelors of Psychology - University at Albany</p>
+          <p>Certified Front End Developer - The Iron Yard</p>
+          <br></br>
+          <p>Previous Employment</p>
+          <p>Current* - Freelance Web Development(2015)</p>
+          <p>HS Teacher - OC and Seminole Public Schools (2012-2015)</p>
+          <p>Surgical Assistant - FL Hospital, Orlando (2009-2012)</p>
+          <br></br>
+          <p>Memberships</p>
+          <pre>Suncoast Developers Guild     The Psychology of Design</pre>
+          <pre>Hackathon Tampa               WordPress Orlando</pre>
+          <pre>Bar Camp Tampa                The Iron Yard</pre>
+
       <header className='headroom'>
         <h1>Brian Asquith</h1>
         <h2 className="subheading">Front End Software Engineer</h2>
