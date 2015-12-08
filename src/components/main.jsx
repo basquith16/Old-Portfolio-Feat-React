@@ -36,39 +36,39 @@ module.exports = React.createClass({
       </header>
     </div>
       <div className="navbar">
-        <div className="brand">
-          <Link to='/'>Home</Link>
-          <Link to='1'>About Me</Link>
-          <Link to='2'>Portfolio</Link>
-        </div>
+        <ul className="nav nav-pills pull-left">
+          <li><Link to='/'>Home</Link></li>
+          <li><Link to='1'>About Me</Link></li>
+          <li><Link to='2'>Portfolio</Link></li>
+        </ul>
 
-        <nav className="rightNav">
-          <div>
+        <ul className="nav nav-pills pull-right">
+          <li>
             <a href="https://github.com/basquith16" target="_blank">
               <img id="gitHub" src="images/stormtroopocat.png" alt="symbol" />
             </a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="https://twitter.com/basquith16" target="_blank">
               <img src="http://marklaxton.com/wp-content/uploads/2015/07/twitter-icon.png" id="twitter" />
             </a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="https://www.linkedin.com/profile/view?id=AAIAAAtPb3cBRZooOVV8DgDVQhbnXnwhZ4xFVeY&trk=nav_responsive_tab_profile" target="_blank">
               <img id="linkedinLogo" src="images/linkedin.png" alt="linkedIn"/>
             </a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="mailto:basquithcpt@gmail.com?Subject=Saw Your Portfolio%20" target="_top">
               <img id="email" src="images/email-icon.png"  alt="email"/>
             </a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="tel:4074904075">
               <img id="telephone" src="images/icon_telephone.png" alt="telephone"/>
             </a>
-          </div>
-        </nav>
+          </li>
+        </ul>
       </div>
       {this.props.children}
     </div>

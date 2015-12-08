@@ -27,7 +27,7 @@ header {
   margin: -80px 0 0 0;
 }
 
-#reactContent > div > div.navbar > div > a {
+.navbar > div > a {
   color: white;
 }
 
@@ -46,13 +46,6 @@ header {
   -webkit-transition: opacity 2s, transform 7s ;
 }
 
-p {
-  margin: -50px 0 0 0;
-  text-align: left;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.5);
-}
-
 #portTitle {
   text-align: center;
   margin: 5% 0 0 -3%
@@ -64,7 +57,7 @@ p {
 
 .attributes {
   list-style: none;
-  margin-left: 65%;
+  margin-left: 80%;
   font-weight: bold
 }
 
@@ -93,7 +86,8 @@ p {
 }
 
 #bwPic {
-  margin: 10% 0 0 65%;
+  float: right;
+  margin-top: 10%;
   border: 1px solid black;
   border-radius: 10%
 }
@@ -127,24 +121,23 @@ p {
   padding: 2px 15px 0 0;
 }
 
-.brand {
-  margin-left: -250px;
-  padding: 10px 20px 0 0;
-  color: white;
-  white-space: nowrap;
-  display:inline-block;
-}
-
 #portoPage {
   background-image: url('../images/portfoBackground.jpg');
   margin: 0;
 }
 
-.brand a {
-  margin-right: 25px;
-  color: white;
+.pull-left > li {
   font-size: 20px;
   text-decoration: none;
+  padding-left: 10px;
+}
+
+.pull-left > li > a {
+  color: white;
+}
+
+.pull-right > li {
+  padding-right: 10px;
 }
 
 #closure {
@@ -154,9 +147,6 @@ p {
 
 .navbar {
   background-color: rgba(101, 50, 57, 1);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   line-height: 30px;
   margin: 0;
   font-weight: 400;
@@ -166,21 +156,6 @@ p {
 
 #movieReview {
   margin-left: -34%;
-}
-
-nav {
-  font-size: 19px;
-  padding-right: 0;
-  margin-right: -320px;
-  display: flex;
-  flex-direction: row;
-}
-
-.navbar  .brand img {
-  margin: -5px 15px 0px -320px;
-  padding-left: 115px;
-  padding-right: 5px;
-  font-weight: 300;
 }
 
 .navbar  nav > div {
@@ -244,14 +219,21 @@ main {
   margin-top: 50px;
 }
 
-.tictactoe, .minesweeper, .blogLayout {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  height: 200px;
-  margin: 10px 0 65px 50px;
-  flex-grow: 10;
+#portoPage > figure > a {
+  display: inline-block;
   text-align: center;
+  padding-bottom: 30px;
+
+}
+
+.projPics {
+  display: inline-flex;
+}
+
+.img-responsive {
+  width: 600px;
+  height: 300px;
+  padding-left: 50px;
   /*border: 1px solid gray;*/
 }
 
@@ -311,7 +293,7 @@ aside {
   margin: -40% 0 0 15%;
   font-size: 22px;
   text-align: left;
-  width: 20%;
+  width: 280px;
   font-weight: bold;
   text-shadow: .2px .2px white;
   border-radius: 5%;
@@ -393,15 +375,18 @@ ul {
   margin-left: 40%;
   }
 
-  .tictactoe, .minesweeper, .blogLayout {
-    height: 100px;
-    width: 200px;
+  .img-responsive {
+    height: auto;
+    max-width: 80%;
     margin-left: 10px;
     padding-top: 10px;
   }
 
   .captions {
-    margin-left: 0;
+    font-size: smaller;
+    text-align: center;
+    max-width: 50%;
+    margin-left: 25%;
   }
 
   #closure {
@@ -458,6 +443,15 @@ ul {
   }
   .skills h2 {
     font-size: 18px;
+  }
+
+  #bwPic {
+    margin-left: 12%;
+    float: none;
+  }
+
+  .attributes {
+    opacity: 0;
   }
 }
 
