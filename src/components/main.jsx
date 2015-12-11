@@ -27,21 +27,11 @@ module.exports = React.createClass({
     }),
       <div>
         <div className="underheader">
-          <h1>My Resume</h1>
-          <p>Education</p>
-          <p>Bachelors of Psychology - University at Albany</p>
-          <p>Certified Front End Developer - The Iron Yard</p>
-          <br></br>
-          <p>Previous Employment</p>
-          <p>Current* - Freelance Web Development(2015)</p>
-          <p>HS Teacher - OC and Seminole Public Schools (2012-2015)</p>
-          <p>Surgical Assistant - FL Hospital, Orlando (2009-2012)</p>
-          <br></br>
-          <p>Memberships</p>
-          <pre>Suncoast Developers Guild     The Psychology of Design</pre>
-          <pre>Hackathon Tampa               WordPress Orlando</pre>
-          <pre>Bar Camp Tampa                The Iron Yard</pre>
-
+          <a href="https://drive.google.com/file/d/0Bx_l6keF33ttTmZBeVE3X08tV3c/view?usp=sharing" id="resume" target="_blank">
+            <img id="resumePic" src="images/resume.png" alt="symbol" />
+          </a>
+          <a href="http://theironyard.com" id="ironYard" target="_blank"><img id="ironYardLogo" src="images/ironYardLogo.png" /></a>
+        </div>
       <header className='headroom'>
         <h1>Brian Asquith</h1>
         <h2 className="subheading">Front End Software Engineer</h2>
@@ -49,7 +39,6 @@ module.exports = React.createClass({
         <h2 className="subheading">UI/UX</h2>
         <img id="myPic" src="images/portpicback.jpg" alt="guy" />
       </header>
-    </div>
       <div className="navbar">
         <ul className="nav nav-pills pull-left">
           <li><Link to='/' id="navLinks">Home</Link></li>

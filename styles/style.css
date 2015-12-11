@@ -6,45 +6,45 @@ body {
   padding-top: 50px;
 }
 
+#wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+}
+
 header {
-  display: flex;
-  flex-direction: column;
+  min-height: 100%;
+  position: relative;
   color: white;
-  padding-top: 15px;
-  padding-bottom: 100px;
+  padding-top: 14%;
+  padding-bottom: 25px;
   background-image: url('../images/bg-header.jpg');
   background-size: cover;
-  margin-top: -455px;
+  margin-top: -45%;
+  z-index: 1;
 }
 
 .underheader {
+  position: relative;
+  display: grid;
+  min-height: 100%;
   z-index: 0;
-  margin: -80px 0 0 0;
+  margin: -4% 0 0 0;
   background-image: url('../images/brick.png');
 }
 
-.underheader > h1{
-  color: black;
-  font-size: 34px;
-  text-align: center;
-  text-shadow: none;
+
+#resumePic {
+  height: 200px;
+  width: 100px;
+  margin: 15% 0 0 5%;
+  padding-bottom: 7%;
 }
 
-.underheader > p, .underheader > pre{
-  text-align: left;
-  font-family: sans-serif;
-  color: black;
-  font-size: 18px;
-  text-shadow: none;
-  line-height: .8em;
-  margin-left: 5%;
-}
-
-.underheader > pre {
-  background: none;
-  border: none;
-  line-height: 0;
-  margin-left: 4.1%;
+#ironYardLogo {
+  height: 150px;
+  width: 150px;
+  margin: 8% 0 0 15%;
 }
 
 .navbar > div > a {
@@ -172,6 +172,7 @@ header {
   font-weight: 400;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding-top: 10px;
+  z-index: 1;
 }
 
 #movieReview {
@@ -357,12 +358,7 @@ ul {
   list-style: none;
 }
 @media all and (max-width: 1020px) {
-  header {
-    height: auto;
-    margin: auto;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
+
   .navRight {
     padding-right: 10%;
   }
@@ -390,6 +386,23 @@ ul {
   }
 }
 
+@media all and (max-width: 923px) {
+  header {
+    margin-top: -50%;
+  }
+}
+
+@media all and (max-width: 922px) {
+  header {
+    margin-top: -60%;
+  }
+}
+
+@media all and (max-width: 705px) {
+  header {
+    margin-top: -70%;
+  }
+}
 @media all and (max-width: 600px) {
     .blog a{
   margin-left: 40%;
@@ -484,6 +497,16 @@ ul {
   .attributes {
     opacity: 0;
   }
+
+  #resumePic {
+    height: 100px;
+    width: 50px;
+  }
+
+  #ironYardLogo {
+    height: 75px;
+    width: 75px;
+  }
 }
 
   .aboutMe {
@@ -496,3 +519,32 @@ ul {
   #navLinks:link, #navLinks:visited, #navLinks:hover, #navLinks:active {
     background: none;
   }
+
+@media all and (max-width: 595px) {
+  header {
+    margin-top: -80%;
+  }
+}
+
+@media all and (max-width: 526px) {
+  header {
+    margin-top: -90%;
+    padding-bottom: 15%;
+  }
+}
+
+@media all and (max-width: 469px) {
+  header {
+    margin-top: -120%;
+  }
+}
+
+@media all and (max-width: 469px) {
+  header {
+    margin-top: -115%;
+  }
+
+  .pull-right {
+    margin-right: -8%;
+  }
+}
