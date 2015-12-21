@@ -26,27 +26,26 @@ module.exports = React.createClass({
 
     }),
       <div>
-        <div className="underheader">
-          <a href="https://drive.google.com/file/d/0Bx_l6keF33ttTmZBeVE3X08tV3c/view?usp=sharing" id="resume" target="_blank">
-            <img id="resumePic" src="images/resume.png" alt="symbol" />
-          </a>
-          <a href="http://theironyard.com" id="ironYard" target="_blank"><img id="ironYardLogo" src="images/ironYardLogo.png" /></a>
+        <div className="underheader row">
+          <iframe width="600" height="400" src="https://www.youtube.com/embed/U70NFi7x8Zk" id="demoVid" target="_blank">
+          </iframe>
         </div>
-      <header className='headroom'>
+      <header className='headroom' className= "row">
         <h1>Brian Asquith</h1>
-        <h2 className="subheading">Front End Software Engineer</h2>
-        <h2 className="subheading">Web Development</h2>
-        <h2 className="subheading">UI/UX</h2>
+        <h2 className="subheading span12">Front End Software Engineer</h2>
+        <h2 className="subheading span12">Web Development</h2>
+        <h2 className="subheading span12">UI/UX</h2>
         <img id="myPic" src="images/portpicback.jpg" alt="guy" />
       </header>
       <div className="navbar">
         <ul className="nav nav-pills pull-left">
           <li><Link to='/' id="navLinks">Home</Link></li>
-          <li><Link to='1' id="navLinks">About Me</Link></li>
-          <li><Link to='2' id="navLinks">Portfolio</Link></li>
+          <li><Link to='blog' id="navLinks">Blog</Link></li>
+          <li><Link to='about' id="navLinks">About Me</Link></li>
+          <li><Link to='portfolio' id="navLinks">Portfolio</Link></li>
         </ul>
 
-        <ul className="nav nav-pills pull-right">
+        <ul className="nav nav-pills pull-right" id="linkIcons">
           <li>
             <a href="https://github.com/basquith16" target="_blank" id="navLinks">
               <img id="gitHub" src="images/stormtroopocat.png" alt="symbol" />
