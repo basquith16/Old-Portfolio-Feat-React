@@ -35,7 +35,7 @@ module.exports = React.createClass({
         <h2 className="subheading span12">Front End Software Engineer</h2>
         <h2 className="subheading span12">Web Development</h2>
         <h2 className="subheading span12">UI/UX</h2>
-        <img id="myPic" src="images/portpicback.jpg" alt="guy" />
+        <img className="img-responsive" id="myPic" src="images/portpicback.jpg" alt="guy" />
       </header>
       <div className="navbar">
         <ul className="nav nav-pills pull-left">
@@ -46,6 +46,11 @@ module.exports = React.createClass({
         </ul>
 
         <ul className="nav nav-pills pull-right" id="linkIcons">
+          <li>
+            <a href="https://drive.google.com/file/d/0Bx_l6keF33ttTmZBeVE3X08tV3c/view?usp=sharing" id="navLinks" target="_blank">
+              <img id="resumePic" src="images/resume.png" alt="symbol" />
+            </a>
+          </li>
           <li>
             <a href="https://github.com/basquith16" target="_blank" id="navLinks">
               <img id="gitHub" src="images/stormtroopocat.png" alt="symbol" />

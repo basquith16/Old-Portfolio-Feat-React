@@ -6,7 +6,7 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div className="aboutMeBody">
-          <div>
+          <div id="right-side">
             <img src="images/myPic.png" alt="pic" height="300" width="300" id="bwPic"/>
             <ul className="attributes">
               <li>Height: 5'8</li>
